@@ -2,7 +2,7 @@
 
 Wanderlust is a web application that allows users to explore and create travel listings. Users can post listings for various destinations, view details of those listings, and leave reviews. The app also supports geolocation integration for addresses and image management for each listing via Cloudinary. The application features user authentication, and it's built using the MERN stack (MongoDB, Express, React, Node.js), along with several other useful libraries and APIs.
 
-**Check out the live version of Wanderlust here:** [Wanderlust Live](https://wanderlust-vtw3.onrender.com)
+**Check out the live version of Wanderlust here:** [Wanderlust Live](https://wanderlust-vtw3.onrender.com](https://wanderlustin-production.up.railway.app/listings)
 ## Features
 
 - **User Authentication**: Users can sign up, log in, and log out.
