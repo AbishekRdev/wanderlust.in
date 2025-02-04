@@ -2,7 +2,8 @@
 
 Wanderlust is a web application that allows users to explore and create travel listings. Users can post listings for various destinations, view details of those listings, and leave reviews. The app also supports geolocation integration for addresses and image management for each listing via Cloudinary. The application features user authentication, and it's built using the MERN stack (MongoDB, Express, React, Node.js), along with several other useful libraries and APIs.
 
-**Check out the live version of Wanderlust here:** [Wanderlust Live](https://wanderlust-vtw3.onrender.com](https://wanderlustin-production.up.railway.app/listings)
+**Check out the live version of Wanderlust here:** [Wanderlust Live](https://wanderlustin-production.up.railway.app)
+
 ## Features
 
 - **User Authentication**: Users can sign up, log in, and log out.
@@ -12,7 +13,7 @@ Wanderlust is a web application that allows users to explore and create travel l
 - **Image Upload**: Users can upload images for their listings, managed through Cloudinary.
 - **Session Management**: Sessions are managed using MongoDB and Express sessions.
 - **Flash Messages**: Flash messages display success or error notifications throughout the app.
-  
+
 ## Technologies Used
 
 - **Node.js** and **Express.js** for backend development
@@ -61,6 +62,7 @@ Wanderlust is a web application that allows users to explore and create travel l
     CLOUDINARY_CLOUD_NAME=yourcloudname
     CLOUDINARY_API_KEY=yourapikey
     CLOUDINARY_API_SECRET=yourapisecret
+    PORT=3000
     ```
 
 5. **Run the application**:
@@ -68,7 +70,4 @@ Wanderlust is a web application that allows users to explore and create travel l
     npm start
     ```
 
-    The app will now be running at `http://localhost:8080`.
-
-
-
+    The app will now be running at `http://localhost:3000`.
